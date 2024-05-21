@@ -12,7 +12,7 @@ project:
         id: ubc
         name: Department of Earth, Ocean and Atmospheric Sciences, University of British Columbia, Vancouver, British Columbia
     - name: Doulas W. Oldenburg
-      email: doug@eoas.ubc.ca
+      email: doug@eos.ubc.ca
       orcid: 0000-0002-4327-2124
       affiliation: ubc
   # doi: DOI
