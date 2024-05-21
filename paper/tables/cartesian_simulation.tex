@@ -1,0 +1,22 @@
+\begin{table}
+\centering
+    \caption{
+        Mesh parameters and computation time for each forward simulation on a 2.7 GHz Intel Core i7 processor.
+        The hollow steel-cased well is discretized on the 3D cylindrical mesh with 4 cells across the thickness
+        of the casing. We treat this as the baseline solution. For each of the carestian simulations, the casing is
+        captured by single cell in the horizontal dimensions.
+    }
+    \begin{tabular}[htb]{| l | r | r | r |}
+        \hline
+        \textbf{Mesh Type} & \textbf{Smallest cell width (m)} & \textbf{Number of cells} & \textbf{Compute Time (s)} \\
+        \hline
+        3D Cylindrical & $2.5 \times 10^{-3}$ & 430528 & 9 \\
+        \hline
+        \multirow{4}{*}{Cartesian} & 0.1 & 1090026 & 131 \\
+                                  & 0.2 & 971022 & 119 \\
+                                  & 0.4 & 889998 & 87 \\
+                                  & 0.8 & 738078 & 56 \\
+        \hline
+    \end{tabular}
+    \label{tab:cartesian_simulation}
+ \end{table}
