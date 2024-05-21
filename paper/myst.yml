@@ -25,17 +25,18 @@ project:
     title: Geophysical Journal International
     url: https://academic.oup.com/gji/article/219/1/1/5519862
   history:
-    # received: YYYY/MM/DD
-    # accepted: YYYY/MM/DD
-    # published: YYYY/MM/DD
+    received: 2019/06/01
+    accepted: 2019/06/15
+    published: 2019/06/18
   keywords:
-    # - KEYWORD 1
-    # - KEYWORD 2
-    # - KEYWORD 3
-    # - KEYWORD 4
+    - Electrical properties    
+    - Electrical resistivity tomography (ERT)
+    - Electromagnetic theory
+    - Downhole methods
+    - Numerical modelling
   abbreviations:
-    # CSEM: controlled source electromagnetics
-    # EM: electromagnetics
+    DC: Direct Current
+    ERT: Electrical resistivity tomography
   thumbnail: thumbnail.png
   numbering:
     headings: true
