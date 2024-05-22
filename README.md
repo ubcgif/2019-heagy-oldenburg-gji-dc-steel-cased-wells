@@ -4,7 +4,7 @@ _Lindsey J. Heagy and Douglas W. Oldenburg_
 
 [https://doi.org/10.1190/tle43020084.1]
 
-![thumbnail](./paper/thumbnail.png)
+![electric-field-in-3D](./paper/thumbnail.png)
 
 ## Summary 
 
