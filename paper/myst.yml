@@ -12,30 +12,31 @@ project:
         id: ubc
         name: Department of Earth, Ocean and Atmospheric Sciences, University of British Columbia, Vancouver, British Columbia
     - name: Doulas W. Oldenburg
-      email: doug@eoas.ubc.ca
+      email: doug@eos.ubc.ca
       orcid: 0000-0002-4327-2124
       affiliation: ubc
-  # doi: DOI
-  # arxiv: ARXIV
-  # github: GITHUB-URL
-  # date: YYYY/MM/DD # date of publication
+  doi: 10.1093/gji/ggz281
+  arxiv: 1810.12446
+  github: https://github.com/simpeg-research/heagy-2018-dc-casing 
+  date: 2019/06/18 # date of publication
   # license: CC-BY-4.0  # uncomment this and the line below if open access
   # open_access: true
   venue:
-    # title: JOURNAL NAME
-    # url: JOURNAL URL
+    title: Geophysical Journal International
+    url: https://academic.oup.com/gji/article/219/1/1/5519862
   history:
-    # received: YYYY/MM/DD
-    # accepted: YYYY/MM/DD
-    # published: YYYY/MM/DD
+    received: 2019/06/01
+    accepted: 2019/06/15
+    published: 2019/06/18
   keywords:
-    # - KEYWORD 1
-    # - KEYWORD 2
-    # - KEYWORD 3
-    # - KEYWORD 4
+    - Electrical properties    
+    - Electrical resistivity tomography (ERT)
+    - Electromagnetic theory
+    - Downhole methods
+    - Numerical modelling
   abbreviations:
-    # CSEM: controlled source electromagnetics
-    # EM: electromagnetics
+    DC: Direct Current
+    ERT: Electrical resistivity tomography
   thumbnail: thumbnail.png
   numbering:
     headings: true
@@ -43,5 +44,5 @@ site:
   template: article-theme
   actions:
     - title: pdf
-      # url: NAME-OF-PDF.pdf
+      url: Heagy-Oldenburg-2019-DC-steel-cased-wells.pdf
       static: true
