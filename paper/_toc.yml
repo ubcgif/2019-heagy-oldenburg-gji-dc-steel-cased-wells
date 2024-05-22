@@ -1,0 +1,65 @@
+# Table of Contents
+#
+# Myst will respect:
+# 1. New pages
+#      - file: relative/path/to/page
+# 2. New sections without an associated page
+#      - title: Folder Title
+#        sections: ...
+# 3. New sections with an associated page
+#      - file: relative/path/to/page
+#        sections: ...
+#
+# Note: Titles defined on pages here are not recognized.
+#
+# This spec is based on the JupyterBook table of contents.
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: casingDCpaper
+chapters: []
+#   - title: Equations
+#     sections:
+#       - file: equations/charge_density
+#       - file: equations/conduction_length
+#       - file: equations/dc_equation_second_order
+#       - file: equations/dc_equations
+#       - file: equations/excitation
+#       - file: equations/kaufman_short_well
+#       - file: equations/ohms_law
+#   - title: Figures
+#     sections:
+#       - file: figures/approximating_wells_cartesian
+#       - file: figures/approximating_wells_currents_charges_random
+#       - file: figures/approximating_wells_currents_charges
+#       - file: figures/approximating_wells_electric_fields
+#       - file: figures/casing_charge_flawdz
+#       - file: figures/casing_charge_sigma_casing
+#       - file: figures/casing_charge
+#       - file: figures/casing_integrity_basics
+#       - file: figures/dc_discretization
+#       - file: figures/detectability_dipole
+#       - file: figures/electrode_location_currents
+#       - file: figures/electrode_location
+#       - file: figures/excitation_3D
+#       - file: figures/integrity_conductivity_casing
+#       - file: figures/integrity_conductivity
+#       - file: figures/integrity_depth
+#       - file: figures/integrity_e_fields
+#       - file: figures/integrity_layer_physics
+#       - file: figures/integrity_layer
+#       - file: figures/integrity_partial_flaw
+#       - file: figures/integrity_survey_design
+#       - file: figures/offset_electric_fields
+#       - file: figures/offset_target_physics
+#       - file: figures/primary_3D
+#       - file: figures/random_layers
+#       - file: figures/target_electric_fields
+#       - file: figures/target_physics
+#       - file: figures/uncased_target_physics
+#   - title: Tables
+#     sections:
+#       - file: tables/adjacent_target_excitation
+#       - file: tables/cartesian_simulation
+#       - file: tables/offset_charge
+#       - file: tables/target_charge
