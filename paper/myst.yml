@@ -3,6 +3,7 @@ version: 1
 project:
   id: ubcgif-2019-heagy-oldenburg-gji
   title: Direct current resistivity with steel-cased wells
+  description: Adopting a cylindrical discretization for numerical simulations to investigate three important aspects of DC resistivity in settings with steel-cased wells. 
   authors:
     - name: Lindsey J. Heagy
       email: lheagy@eoas.ubc.ca
