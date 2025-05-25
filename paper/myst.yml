@@ -3,7 +3,7 @@ version: 1
 project:
   id: ubcgif-2019-heagy-oldenburg-gji
   title: Direct current resistivity with steel-cased wells
-  description: Adopting a cylindrical discretization for numerical simulations to investigate three important aspects of DC resistivity in settings with steel-cased wells. 
+  description: Adopting a cylindrical discretization for numerical simulations to investigate three important aspects of DC resistivity in settings with steel-cased wells.
   authors:
     - name: Lindsey J. Heagy
       email: lheagy@eoas.ubc.ca
@@ -18,19 +18,20 @@ project:
       affiliation: ubc
   doi: 10.1093/gji/ggz281
   arxiv: 1810.12446
-  github: https://github.com/simpeg-research/heagy-2018-dc-casing 
-  date: 2019/06/18 # date of publication
+  github: https://github.com/simpeg-research/heagy-2018-dc-casing
+  date: 2019-06-18 # date of publication
   # license: CC-BY-4.0  # uncomment this and the line below if open access
   # open_access: true
   venue:
     title: Geophysical Journal International
     url: https://academic.oup.com/gji/article/219/1/1/5519862
   history:
-    received: 2019/06/01
-    accepted: 2019/06/15
-    published: 2019/06/18
+    received: 2019-06-01
+    accepted: 2019-06-15
+    published: 2019-06-18
+  banner: banner.png
   keywords:
-    - Electrical properties    
+    - Electrical properties
     - Electrical resistivity tomography (ERT)
     - Electromagnetic theory
     - Downhole methods
